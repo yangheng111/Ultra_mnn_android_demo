@@ -1,0 +1,26 @@
+{
+  "buildFiles": [
+    "/Users/shengdan/Downloads/mnn_android/mnn_mtcnn/android/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/shengdan/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/shengdan/Downloads/mnn_android/mnn_mtcnn/android/app/.cxx/cmake/release/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "MNN-Release-arm64-v8a": {
+      "artifactName": "MNN",
+      "abi": "arm64-v8a",
+      "output": "/Users/shengdan/Downloads/mnn_android/mnn_mtcnn/android/app/libs/arm64-v8a/libMNN.so"
+    },
+    "native-lib-Release-arm64-v8a": {
+      "artifactName": "native-lib",
+      "buildCommand": "/Users/shengdan/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/shengdan/Downloads/mnn_android/mnn_mtcnn/android/app/.cxx/cmake/release/arm64-v8a --target native-lib",
+      "abi": "arm64-v8a",
+      "output": "/Users/shengdan/Downloads/mnn_android/mnn_mtcnn/android/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so"
+    },
+    "DetectMNN-Release-arm64-v8a": {
+      "artifactName": "DetectMNN",
+      "abi": "arm64-v8a",
+      "output": "/Users/shengdan/Downloads/mnn_android/mnn_mtcnn/android/app/libs/arm64-v8a/libDetectMNN.so"
+    }
+  }
+}

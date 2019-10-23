@@ -1,0 +1,57 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/shengdan/Downloads/mnn_android/mnn_mtcnn/android/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/shengdan/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/shengdan/Downloads/mnn_android/mnn_mtcnn/android/app/.cxx/cmake/release/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"DetectMNN-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "DetectMNN",
+			"buildType" : "release",
+			"output" : "/Users/shengdan/Downloads/mnn_android/mnn_mtcnn/android/app/libs/arm64-v8a/libDetectMNN.so",
+			"toolchain" : "3432235661187407511"
+		},
+		"MNN-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "MNN",
+			"buildType" : "release",
+			"output" : "/Users/shengdan/Downloads/mnn_android/mnn_mtcnn/android/app/libs/arm64-v8a/libMNN.so",
+			"toolchain" : "3432235661187407511"
+		},
+		"native-lib-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/shengdan/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/shengdan/Downloads/mnn_android/mnn_mtcnn/android/app/.cxx/cmake/release/arm64-v8a --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/shengdan/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/shengdan/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../includes  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -std=c++14 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/shengdan/Downloads/mnn_android/mnn_mtcnn/android/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/shengdan/Downloads/mnn_android/mnn_mtcnn/android/app/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/shengdan/Downloads/mnn_android/mnn_mtcnn/android/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so",
+			"toolchain" : "3432235661187407511"
+		}
+	},
+	"toolchains" : 
+	{
+		"3432235661187407511" : 
+		{
+			"cCompilerExecutable" : "/Users/shengdan/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/shengdan/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
